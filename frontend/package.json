@@ -1,0 +1,9 @@
+
+{
+ "name":"enterprise-angular-frontend",
+ "version":"1.0.0",
+ "scripts":{
+  "start":"ng serve",
+  "build":"ng build"
+ }
+}
