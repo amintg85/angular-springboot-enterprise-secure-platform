@@ -1,9 +1,33 @@
 
 {
- "name":"enterprise-angular-frontend",
- "version":"1.0.0",
- "scripts":{
-  "start":"ng serve",
-  "build":"ng build"
- }
+    "name": "enterprise-angular-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=24.0.0"
+    },
+    "scripts": {
+        "start": "ng serve",
+        "build": "ng build"
+    },
+    "overrides": {
+        "piscina": "^5.3.2",
+        "uuid": "^11.1.1",
+        "webpack-dev-middleware": "^7.4.5"
+    },
+    "dependencies": {
+        "@angular/common": "^20.3.33",
+        "@angular/compiler": "^20.3.33",
+        "@angular/core": "^20.3.33",
+        "@angular/platform-browser": "^20.3.33",
+        "rxjs": "^7.8.1",
+        "tslib": "^2.7.0",
+        "zone.js": "~0.15.0"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^20.3.33",
+        "@angular/cli": "^20.3.33",
+        "@angular/compiler-cli": "^20.3.33",
+        "typescript": "~5.9.3"
+    }
 }

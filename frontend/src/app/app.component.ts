@@ -1,7 +1,9 @@
 
+import { JsonPipe } from '@angular/common';
 import { Component } from '@angular/core';
 @Component({
  standalone:true,
+ imports: [JsonPipe],
  template:`
  <h1>Elite Enterprise Dashboard</h1>
  <button (click)="load()">Load KPI</button>
